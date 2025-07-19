@@ -8,3 +8,5 @@
 /pve-lang-*.js
 /messages.pot
 /build-debs
+
+.DS_Store
