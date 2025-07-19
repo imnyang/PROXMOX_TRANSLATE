@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: proxmox translations\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: 2025-07-18 10:22+0200\n"
-"PO-Revision-Date: 2025-07-19 22:19+0900\n"
+"PO-Revision-Date: 2025-07-19 22:36+0900\n"
 "Last-Translator: imnyang <me@imnya.ng>\n"
 "Language-Team: NavyStack <137406386+Navystack@users.noreply.github.com>\n"
 "Language: ko_KR\n"
@@ -587,19 +587,19 @@ msgstr "모든 기능"
 
 #: proxmox-backup/www/datastore/Content.js:1223
 msgid "All OK"
-msgstr "모두 OK"
+msgstr "모두 정상"
 
 #: proxmox-backup/www/datastore/Content.js:1219
 msgid "All OK (old)"
-msgstr "모두 OK (구식)"
+msgstr "모두 정상 (구식)"
 
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:441
 msgid "All OK, you have production-ready repositories configured!"
-msgstr "모두 OK, 이제 production-ready 리포지토리를 설정했습니다!"
+msgstr "모두 정상, 프로덕션 준비 완료 리포지토리가 구성되었습니다!"
 
 #: pmg-gui/js/AuthEditOIDC.js:199
 msgid "All auto-created users get audit role"
-msgstr ""
+msgstr "자동으로 생성된 모든 사용자에게 감사 역할이 부여됩니다"
 
 #: pve-manager/www/manager6/sdn/fabrics/NodeEdit.js:189
 msgid "All available nodes are already part of the fabric"
@@ -663,7 +663,7 @@ msgstr "SMT 허용"
 
 #: pve-manager/www/manager6/storage/Base.js:84
 msgid "Allow Snapshots as Volume-Chain"
-msgstr ""
+msgstr "스냅샷을 볼륨 체인으로 허용"
 
 #: pve-manager/www/manager6/window/BulkAction.js:90
 msgid "Allow local disk migration"
@@ -2157,7 +2157,7 @@ msgstr "예약 백업 구성"
 
 #: pve-manager/www/manager6/sdn/fabrics/InterfacePanel.js:36
 msgid "Configure the IP in the fabric, instead of /etc/network/interfaces"
-msgstr ""
+msgstr "IP를 /etc/network/interfaces 대신 패브릭에서 구성합니다."
 
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:48
 msgid "Configured"
@@ -2465,9 +2465,8 @@ msgid "Create Cluster"
 msgstr "클러스터 생성"
 
 #: proxmox-backup/www/Utils.js:424
-#, fuzzy
 msgid "Create Datastore"
-msgstr "대상 데이터스토어"
+msgstr "데이터 저장소 생성"
 
 #: pve-manager/www/manager6/lxc/FeaturesEdit.js:66
 msgid "Create Device Nodes"
@@ -2479,9 +2478,8 @@ msgid "Create VM"
 msgstr "VM 생성"
 
 #: pve-manager/www/manager6/sdn/fabrics/NodeEdit.js:64
-#, fuzzy
 msgid "Create another"
-msgstr "클러스터 생성"
+msgstr "다른 항목 생성"
 
 #: pve-manager/www/manager6/ceph/OSD.js:871
 msgid "Create: OSD"
@@ -2545,7 +2543,7 @@ msgstr "사용자 지정 점수"
 
 #: proxmox-widget-toolkit/src/Utils.js:70
 msgid "Czech"
-msgstr ""
+msgstr "체코어"
 
 #: pve-manager/www/manager6/grid/FirewallRules.js:993
 msgid "D.Port"
@@ -2842,7 +2840,7 @@ msgstr "기본 네임스페이스"
 #: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:42
 #: proxmox-widget-toolkit/src/window/AuthEditSimple.js:19
 msgid "Default Realm"
-msgstr "기본 렐름"
+msgstr "기본 영역"
 
 #: pmg-gui/js/MailProxyRelaying.js:10
 msgid "Default Relay"
@@ -2858,9 +2856,8 @@ msgid "Default Sync Options"
 msgstr "기본 동기화 옵션"
 
 #: pmg-gui/js/AuthEditOIDC.js:89
-#, fuzzy
 msgid "Default realm"
-msgstr "기본 렐름"
+msgstr "기본 영역"
 
 #: proxmox-widget-toolkit/src/window/SyncWindow.js:133
 #: pve-manager/www/manager6/dc/RealmSyncJob.js:403
@@ -2878,11 +2875,11 @@ msgstr "기본값은 데이터센터 구성 또는 root@$hostname입니다."
 
 #: pve-manager/www/manager6/dc/OptionView.js:195
 msgid "Defaults to origin"
-msgstr "오리진에 기본값 적용"
+msgstr "원본(Origin)으로 기본 설정"
 
 #: pve-manager/www/manager6/dc/OptionView.js:205
 msgid "Defaults to requesting host URI"
-msgstr "요청하는 host URI에 기본값 적용"
+msgstr "호스트 URI 요청으로 기본 설정"
 
 #: pve-manager/www/manager6/window/Restore.js:211
 msgid "Defaults to target storage restore limit"
@@ -2898,7 +2895,7 @@ msgstr "지연"
 
 #: pmg-gui/js/MailProxyOptions.js:75
 msgid "Delay Warning Time (hours)"
-msgstr "지연 경고 시간(hours)"
+msgstr "지연 경고 시간 (시간)"
 
 #: pmg-gui/js/AttachmentQuarantine.js:143 pmg-gui/js/mobile/mailview.js:43
 #: pmg-gui/js/mobile/quarantineview.js:99
@@ -3279,7 +3276,7 @@ msgstr "미디어 사용 안 함"
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:14
 msgid "Do you want to reset {0} to its default settings?"
-msgstr ""
+msgstr "{0}을(를) 기본 설정으로 재설정하시겠습니까?"
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:120
 msgid "Do you want to send a test notification to '{0}'?"
@@ -4214,11 +4211,11 @@ msgstr "FS 이름"
 #: pve-manager/www/manager6/sdn/controllers/EvpnEdit.js:43
 #: pve-manager/www/manager6/sdn/zones/VxlanEdit.js:64
 msgid "Fabric"
-msgstr ""
+msgstr "패브릭"
 
 #: pve-manager/www/manager6/dc/Config.js:242
 msgid "Fabrics"
-msgstr ""
+msgstr "패브릭"
 
 #: pmg-gui/js/RuleConfiguration.js:177
 msgid "Factory Defaults"
@@ -4443,13 +4440,12 @@ msgid "Fixed"
 msgstr "고정됨"
 
 #: pmg-gui/js/AuthEditOIDC.js:215
-#, fuzzy
 msgid "Fixed Role"
-msgstr "고정됨"
+msgstr "고정 역할"
 
 #: pmg-gui/js/AuthEditOIDC.js:201
 msgid "Fixed role for all auto-created users"
-msgstr ""
+msgstr "자동으로 생성된 모든 사용자에 대한 고정 역할"
 
 #: proxmox-widget-toolkit/src/window/DiskSmart.js:66
 msgid "Flags"
@@ -4457,11 +4453,11 @@ msgstr "플래그"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:210
 msgid "Fleecing"
-msgstr "Fleecing"
+msgstr "플리싱(Fleecing)"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:227
 msgid "Fleecing Storage"
-msgstr "Fleecing 스토리지"
+msgstr "플리싱(Fleecing) 스토리지"
 
 #: pve-manager/www/manager6/qemu/Options.js:137
 msgid "Floppy"
@@ -4501,7 +4497,7 @@ msgstr "예를 들어: 여러 요소를 식별하는 데 필요한, TFA 디바�
 
 #: pve-manager/www/manager6/dc/UserView.js:74
 msgid "For the PAM realm, this applies only to the connected node."
-msgstr ""
+msgstr "PAM 영역의 경우, 이는 연결된 노드에만 적용됩니다."
 
 #: pve-manager/www/manager6/window/Migrate.js:443
 #: proxmox-backup/www/tape/window/MediaRemoveWindow.js:63
@@ -4762,7 +4758,7 @@ msgstr "독일어"
 
 #: pmg-gui/js/AuthEditOIDC.js:202
 msgid "Get role from OIDC claim"
-msgstr ""
+msgstr "OIDC 클레임에서 역할 가져오기"
 
 #: pve-manager/www/manager6/ceph/StatusDetail.js:77
 msgid "Ghost OSDs"
