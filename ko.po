@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: proxmox translations\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: 2025-07-18 10:22+0200\n"
-"PO-Revision-Date: 2023-12-22 10:15 +9\n"
-"Last-Translator: NavyStack <137406386+Navystack@users.noreply.github.com>\n"
+"PO-Revision-Date: 2025-07-19 22:19+0900\n"
+"Last-Translator: imnyang <me@imnya.ng>\n"
 "Language-Team: NavyStack <137406386+Navystack@users.noreply.github.com>\n"
 "Language: ko_KR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.6\n"
 
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:184
 #: proxmox-backup/www/tape/window/TapeBackup.js:129
@@ -374,9 +375,8 @@ msgid "Add EFI Disk"
 msgstr "EFI 디스크 추가"
 
 #: pve-manager/www/manager6/sdn/FabricsView.js:187
-#, fuzzy
 msgid "Add Fabric"
-msgstr "다른 이름으로 추가"
+msgstr "패브릭 추가"
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:71
 msgid "Add Header"
@@ -389,9 +389,8 @@ msgstr "네임스페이스 추가"
 #: pve-manager/www/manager6/sdn/fabrics/NodeEdit.js:188
 #: pve-manager/www/manager6/sdn/FabricsView.js:107
 #: pve-manager/www/manager6/sdn/FabricsView.js:168
-#, fuzzy
 msgid "Add Node"
-msgstr "NS 추가"
+msgstr "노드 추가"
 
 #: proxmox-backup/www/config/SyncView.js:226
 msgid "Add Pull Sync Job"
@@ -604,7 +603,7 @@ msgstr ""
 
 #: pve-manager/www/manager6/sdn/fabrics/NodeEdit.js:189
 msgid "All available nodes are already part of the fabric"
-msgstr ""
+msgstr "모든 사용 가능한 노드가 이미 패브릭의 일부입니다."
 
 #: proxmox-backup/www/datastore/OptionView.js:18
 msgid "All backup snapshots and their data will be permanently destroyed!"
@@ -683,9 +682,8 @@ msgstr "알파벳순"
 
 #: proxmox-widget-toolkit/src/node/NetworkEdit.js:373
 #: proxmox-widget-toolkit/src/node/NetworkView.js:287
-#, fuzzy
 msgid "Alternative Names"
-msgstr "주체 대체 이름"
+msgstr "대체 이름"
 
 #: pmg-gui/js/PBSRemoteEdit.js:87
 #: pve-manager/www/manager6/form/NotificationPolicySelector.js:5
@@ -696,7 +694,6 @@ msgid "Always"
 msgstr "항상"
 
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:221
-#, fuzzy
 msgid "Always send email"
 msgstr "이메일 전송"
 
@@ -845,15 +842,13 @@ msgid "Are you sure you want to remove the certificate used for {0}"
 msgstr "{0}에 사용된 인증서를 제거하시겠습니까?"
 
 #: pve-manager/www/manager6/sdn/FabricsView.js:438
-#, fuzzy
 msgid "Are you sure you want to remove the fabric \"{0}\"?"
-msgstr "{0} 항목을 제거합니다."
+msgstr "패브릭 \"{0}\"을(를) 제거하시겠습니까?"
 
 #: pve-manager/www/manager6/sdn/FabricsView.js:448
-#, fuzzy
 msgid ""
 "Are you sure you want to remove the node \"{0}\" from the fabric \"{1}\"?"
-msgstr "{0}에 대한 일정을 제거하시겠습니까?"
+msgstr "노드 \"{0}\"을(를) 패브릭 \"{1}\"에서 제거하시겠습니까?"
 
 #: pmg-gui/js/PBSSnapshotView.js:152
 msgid "Are you sure you want to remove the schedule for {0}"
@@ -883,7 +878,7 @@ msgstr "{0} 항목을 지우시겠습니까? "
 
 #: pve-manager/www/manager6/sdn/fabrics/ospf/FabricEdit.js:14
 msgid "Area"
-msgstr ""
+msgstr "구역"
 
 #: pve-manager/www/manager6/node/LVM.js:113
 msgid "Assigned to LVs"
@@ -978,9 +973,8 @@ msgid "Autocreate Groups"
 msgstr "그룹 자동 생성"
 
 #: pmg-gui/js/AuthEditOIDC.js:176
-#, fuzzy
 msgid "Autocreate Options"
-msgstr "그룹 자동 생성"
+msgstr "자동 생성 옵션"
 
 #: proxmox-widget-toolkit/src/window/AuthEditOpenId.js:74
 #: pmg-gui/js/AuthEditOIDC.js:180
@@ -1151,7 +1145,7 @@ msgstr "이 스토리지에 사용할 수 없는 백업 콘텐츠 유형입니�
 
 #: pve-manager/www/manager6/Utils.js:2160
 msgid "Backup notifications"
-msgstr "백업 통지"
+msgstr "백업 알림"
 
 #: pve-manager/www/manager6/grid/BackupView.js:158
 msgid "Backup now"
@@ -1536,7 +1530,7 @@ msgstr "보정 중"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:136
 msgid "Can be used in notification matchers to match this job."
-msgstr "이 작업을 일치시키기 위해 통지 매처에서 사용할 수 있습니다."
+msgstr "이 작업을 일치시키는 데 알림 일치자(matchers)에서 사용할 수 있습니다."
 
 #: pve-manager/www/manager6/form/TagEdit.js:351
 msgid "Cancel Edit"
@@ -2222,7 +2216,7 @@ msgstr "비밀번호 확인"
 #: proxmox-widget-toolkit/src/window/AddYubico.js:123
 #: proxmox-widget-toolkit/src/window/TfaEdit.js:224
 msgid "Confirm your ({0}) password"
-msgstr "({0}) 비밀번호를 확인하세요."
+msgstr "비밀번호 ({0})를 확인하십시오"
 
 #: proxmox-backup/www/window/DatastoreRepoInfo.js:6
 msgid "Connection Information"
@@ -2405,7 +2399,7 @@ msgstr "클러스터에서 ceph 설치를 감지할 수 없음"
 
 #: pmg-gui/js/DKIMSettings.js:40
 msgid "Could not read private key - please create a selector first!"
-msgstr ""
+msgstr "개인 키를 읽을 수 없습니다. 먼저 선택기를 만드세요!"
 
 #: pmg-gui/js/ContactStatistics.js:158 pmg-gui/js/Dashboard.js:473
 #: pmg-gui/js/DomainStatistics.js:86 pmg-gui/js/DomainStatistics.js:130
@@ -3289,7 +3283,7 @@ msgstr ""
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:120
 msgid "Do you want to send a test notification to '{0}'?"
-msgstr "'{0}'에게 테스트 통지를 보내시겠습니까?"
+msgstr "'{0}'에게  알림을 보내시겠습니까?"
 
 #: pmg-gui/js/MainView.js:187 pve-manager/www/manager6/Workspace.js:360
 #: proxmox-backup/www/MainView.js:240
@@ -5283,9 +5277,8 @@ msgid "IPv4"
 msgstr "IPv4"
 
 #: pve-manager/www/manager6/sdn/fabrics/FabricEdit.js:28
-#, fuzzy
 msgid "IPv4 Prefix"
-msgstr "API 경로 접두어"
+msgstr "IPv4 접두사"
 
 #: pve-manager/www/manager6/qemu/IPConfigEdit.js:111
 msgid "IPv4/CIDR"
@@ -5300,9 +5293,8 @@ msgid "IPv6"
 msgstr "IPv6"
 
 #: pve-manager/www/manager6/sdn/fabrics/openfabric/FabricEdit.js:28
-#, fuzzy
 msgid "IPv6 Prefix"
-msgstr "API 경로 접두어"
+msgstr "IPv6 접두사"
 
 #: pve-manager/www/manager6/qemu/IPConfigEdit.js:177
 msgid "IPv6/CIDR"
@@ -5361,9 +5353,8 @@ msgstr "게스트 가져오기 - {0}"
 
 #: pve-manager/www/manager6/qemu/HardwareView.js:731
 #: pve-manager/www/manager6/qemu/HDEdit.js:587
-#, fuzzy
 msgid "Import Hard Disk"
-msgstr "하드 디스크"
+msgstr "하드 디스크 불러오기"
 
 #: pve-manager/www/manager6/qemu/HDEdit.js:260
 msgid "Import Storage"
@@ -5536,12 +5527,11 @@ msgstr "인터페이스"
 
 #: pve-manager/www/manager6/sdn/fabrics/InterfacePanel.js:32
 msgid "Interface already has an address configured in /etc/network/interfaces"
-msgstr ""
+msgstr "인터페이스에 이미 /etc/network/interfaces에 구성된 주소가 있습니다"
 
 #: pve-manager/www/manager6/sdn/fabrics/InterfacePanel.js:26
-#, fuzzy
 msgid "Interface does not exist on node"
-msgstr "포함된 대상이 존재하지 않습니다!"
+msgstr "인터페이스가 노드에 존재하지 않습니다"
 
 #: pmg-gui/js/SystemConfiguration.js:41
 #: pve-manager/www/manager6/sdn/controllers/IsisEdit.js:46
@@ -5788,7 +5778,7 @@ msgstr "모든 백업 보관"
 
 #: proxmox-backup/www/datastore/OptionView.js:58
 msgid "Keep configured jobs and permissions"
-msgstr ""
+msgstr "구성된 작업과 권한을 유지"
 
 #: pve-manager/www/manager6/storage/PBSEdit.js:288
 msgid "Keep encryption key"
@@ -6010,7 +6000,7 @@ msgstr "한도 (Bytes/Period)"
 
 #: pve-manager/www/manager6/panel/BackupAdvancedOptions.js:157
 msgid "Limit I/O bandwidth."
-msgstr ""
+msgstr "I/O 대역폭을 제한합니다."
 
 #: pmg-gui/js/Settings.js:262 pve-manager/www/manager6/window/Settings.js:362
 #: proxmox-backup/www/window/Settings.js:266
@@ -6680,6 +6670,8 @@ msgid ""
 "Migrating VM with local resources: {0}. This might fail if the resources are "
 "not available on the target node."
 msgstr ""
+"로컬 리소스를 사용하는 VM 마이그레이션: {0}. 대상 노드에 해당 리소스가 없으"
+"면 실패할 수 있습니다."
 
 #: pve-manager/www/manager6/dc/OptionView.js:329
 msgid "Migration"
@@ -6908,7 +6900,7 @@ msgstr "여러 명의 수신자는 공백, 쉼표 또는 세미콜론으로 구�
 
 #: proxmox-widget-toolkit/src/panel/WebhookEditPanel.js:62
 msgid "Must be a valid URL"
-msgstr ""
+msgstr "유효한 URL이어야 합니다."
 
 #: pve-manager/www/manager6/form/MultiPCISelector.js:42
 msgid "Must choose at least one device"
@@ -6958,7 +6950,7 @@ msgstr "지금"
 
 #: pve-manager/www/manager6/window/GuestImport.js:1009
 msgid "NVMe disks are currently not supported, '{0}' will get attached as SCSI"
-msgstr ""
+msgstr "NVMe 디스크는 현재 지원되지 않으며, '{0}'은(는) SCSI로 연결됩니다."
 
 #: proxmox-widget-toolkit/src/form/UserSelector.js:33
 #: proxmox-widget-toolkit/src/grid/ObjectGrid.js:391
@@ -7260,7 +7252,7 @@ msgstr "계정이 구성되지 않음"
 
 #: proxmox-backup/www/Utils.js:729
 msgid "No Activity"
-msgstr ""
+msgstr "활동 없음"
 
 #: pmg-gui/js/AttachmentGrid.js:79 pmg-gui/js/AttachmentGrid.js:99
 msgid "No Attachments"
@@ -7268,7 +7260,7 @@ msgstr "첨부파일 없음"
 
 #: proxmox-backup/www/tape/window/DriveEdit.js:40
 msgid "No Changer"
-msgstr "No Changer"
+msgstr "변경자 없음"
 
 #: pve-manager/www/manager6/qemu/CloudInit.js:124
 msgid "No CloudInit Drive found"
@@ -7485,16 +7477,16 @@ msgstr "네트워크 정보 없음"
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:327
 msgid "No notification matchers configured"
-msgstr "구성된 통지 일치 조건이 없습니다."
+msgstr "구성된 알림 일치 조건이 없습니다."
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:155
 msgid "No notification targets configured"
-msgstr "구성된 통지 대상 없음"
+msgstr "구성된 알림 대상 없음"
 
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:237
 #, fuzzy
 msgid "No recipients configured"
-msgstr "계정이 구성되지 않음"
+msgstr "수신자가 구성되지 않음"
 
 #: pve-manager/www/manager6/sdn/zones/Base.js:45
 #: pve-manager/www/manager6/storage/Base.js:42
@@ -7613,7 +7605,7 @@ msgstr "노드"
 
 #: pve-manager/www/manager6/Utils.js:2162
 msgid "Node fencing notifications"
-msgstr "노드 Fencing 통지"
+msgstr "노드 Fencing 알림"
 
 #: pve-manager/www/manager6/dc/Backup.js:582
 msgid "Node is offline"
@@ -7794,36 +7786,36 @@ msgstr "공지"
 #: pve-manager/www/manager6/window/Backup.js:46
 #: proxmox-backup/www/tape/window/TapeBackup.js:103
 msgid "Notification"
-msgstr "통지"
+msgstr "알림"
 
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:101
 msgid "Notification Matcher"
-msgstr "통지 일치 조건"
+msgstr "알림 일치 조건"
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:278
 msgid "Notification Matchers"
-msgstr "통지 일치 조건"
+msgstr "알림 일치 조건"
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:118
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:134
 msgid "Notification Target Test"
-msgstr "통지 대상 테스트"
+msgstr "알림 대상 "
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:59
 msgid "Notification Targets"
-msgstr "통지 대상"
+msgstr "알림 대상"
 
 #: proxmox-backup/www/tape/window/TapeRestore.js:444
 msgid "Notification mode"
-msgstr "통지 모드"
+msgstr "알림 모드"
 
 #: proxmox-backup/www/tape/window/TapeRestore.js:442
 msgid "Notification system"
-msgstr "통지 시스템"
+msgstr "알림 시스템"
 
 #: proxmox-widget-toolkit/src/Utils.js:719
 msgid "Notification type"
-msgstr "통지 유형"
+msgstr "알림 유형"
 
 #: pve-manager/www/manager6/dc/Backup.js:369
 #: pve-manager/www/manager6/dc/Config.js:369
@@ -7831,7 +7823,7 @@ msgstr "통지 유형"
 #: proxmox-backup/www/NavigationTree.js:72
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:223
 msgid "Notifications"
-msgstr "통지"
+msgstr "알림"
 
 #: pmg-gui/js/PBSRemoteEdit.js:85
 msgid "Notify"
@@ -7840,7 +7832,7 @@ msgstr "통지하기"
 #: proxmox-backup/www/tape/window/TapeBackup.js:113
 #: proxmox-backup/www/tape/window/TapeRestore.js:453
 msgid "Notify User"
-msgstr "사용자 통지"
+msgstr "사용자 알림"
 
 #: pve-manager/www/manager6/form/IPProtocolSelector.js:16
 msgid "Number"
@@ -9243,7 +9235,6 @@ msgstr "수신자"
 
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:275
 #: proxmox-backup/www/window/NotifyOptions.js:107
-#, fuzzy
 msgid "Recipient"
 msgstr "수신자"
 
@@ -9253,7 +9244,6 @@ msgstr "수신자"
 
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:230
 #: pve-manager/www/manager6/panel/BackupNotificationOptions.js:79
-#, fuzzy
 msgid "Recipients"
 msgstr "수신자"
 
@@ -9292,13 +9282,12 @@ msgid "Regenerate Secret"
 msgstr "비밀 재생성"
 
 #: proxmox-backup/www/config/TokenView.js:217
-#, fuzzy
 msgid ""
 "Regenerate the secret of the API token '{0}'? All users of the previous "
 "token secret will lose access!"
 msgstr ""
-"API 토큰 '{0}'의 비밀을 다시 생성하시겠습니까? 현재 사용 중인 모든 사이트에"
-"서 접근 권한이 사라집니다!"
+"API 토큰 '{0}'의 비밀 키를 다시 생성하시겠습니까? 이전 비밀 키를 사용하던 모"
+"든 사용자는 액세스를 잃게 됩니다!"
 
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:1304
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:1374
@@ -9620,7 +9609,7 @@ msgstr "복제 로그"
 
 #: pve-manager/www/manager6/Utils.js:2161
 msgid "Replication job notifications"
-msgstr "복제 작업 통지"
+msgstr "복제 작업 알림"
 
 #: pve-manager/www/manager6/grid/Replication.js:226
 msgid "Replication needs at least two nodes"
@@ -9852,9 +9841,8 @@ msgid "Role"
 msgstr "역할"
 
 #: pmg-gui/js/AuthEditOIDC.js:226
-#, fuzzy
 msgid "Role Claim"
-msgstr "그룹 클레임"
+msgstr "역할 클레임"
 
 #: pve-manager/www/manager6/dc/Config.js:135
 msgid "Roles"
@@ -10250,9 +10238,8 @@ msgid "Select File"
 msgstr "파일 선택"
 
 #: pve-manager/www/manager6/qemu/HDEdit.js:276
-#, fuzzy
 msgid "Select Image"
-msgstr "게스트 이미지"
+msgstr "이미지 선택"
 
 #: proxmox-backup/www/tape/window/TapeRestore.js:316
 msgid "Select Media-Set to restore"
@@ -10276,9 +10263,8 @@ msgid "Selected \"{0}\""
 msgstr "\"{0}\" 선택함"
 
 #: pve-manager/www/manager6/qemu/HDEdit.js:248
-#, fuzzy
 msgid "Selected Image"
-msgstr "선택한 메일"
+msgstr "선택한 이미지"
 
 #: pmg-gui/js/AttachmentQuarantine.js:90 pmg-gui/js/SpamQuarantine.js:195
 #: pmg-gui/js/VirusQuarantine.js:98
@@ -10317,13 +10303,12 @@ msgid "Send daily admin reports"
 msgstr "매일 관리자 보고서 전송"
 
 #: pve-manager/www/manager6/dc/BackupJobDetail.js:223
-#, fuzzy
 msgid "Send email on failure"
-msgstr "다음 주소로 이메일 보내기"
+msgstr "실패 시 이메일 보내기"
 
 #: pve-manager/www/manager6/window/Backup.js:34
 msgid "Send email to"
-msgstr "다음 주소로 이메일 보내기"
+msgstr "다음으로 이메일 보내기 : "
 
 #: pmg-gui/js/AttachmentQuarantine.js:64 pmg-gui/js/ContactStatistics.js:62
 #: pmg-gui/js/MailTracker.js:69 pmg-gui/js/NavigationTree.js:190
@@ -10340,7 +10325,7 @@ msgstr "발신자/제목"
 
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:136
 msgid "Sent test notification to '{0}'."
-msgstr "'{0}'에게 테스트 통지를 보냈습니다."
+msgstr "'{0}'에게  알림를 보냈습니다."
 
 #: proxmox-backup/www/tape/BackupOverview.js:378
 msgid "Seq. Nr."
@@ -10933,7 +10918,7 @@ msgstr "Spice 포트"
 #: pve-manager/www/manager6/dc/Cluster.js:212
 #: pve-manager/www/manager6/dc/Health.js:33
 msgid "Standalone node - no cluster defined"
-msgstr "독립 실행형 노드 - 정의된 클러스터 없음"
+msgstr "별도의 노드 - 정의된 클러스터 없음"
 
 #: pve-manager/www/manager6/Utils.js:31
 msgid "Standard"
@@ -11661,7 +11646,7 @@ msgstr "테이프 기록"
 
 #: proxmox-backup/www/Utils.js:473
 msgid "Tape backup notifications"
-msgstr "테이프 백업 통지"
+msgstr "테이프 백업 알림"
 
 #: proxmox-backup/www/Utils.js:474
 msgid "Tape loading request"
@@ -11749,49 +11734,49 @@ msgstr "대상 스토리지"
 
 #: proxmox-widget-toolkit/src/window/NotificationMatcherEdit.js:128
 msgid "Targets to notify"
-msgstr "통지할 대상"
+msgstr "알림할 대상"
 
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:61
 #: proxmox-backup/www/dashboard/LongestTasks.js:80
 #: proxmox-backup/www/dashboard/RunningTasks.js:72
 #: proxmox-backup/www/dashboard/TaskSummary.js:89
 msgid "Task"
-msgstr "태스크"
+msgstr "작업"
 
 #: pve-manager/www/manager6/lxc/Config.js:293
 #: pve-manager/www/manager6/node/Config.js:437
 #: pve-manager/www/manager6/qemu/Config.js:337
 msgid "Task History"
-msgstr "태스크 기록"
+msgstr "작업 기록"
 
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:157
 msgid "Task ID"
-msgstr "태스크 ID"
+msgstr "작업 ID"
 
 #: proxmox-widget-toolkit/src/node/Tasks.js:352
 msgid "Task Result"
-msgstr "태스크 결과"
+msgstr "작업 결과"
 
 #: proxmox-backup/www/Dashboard.js:279
 #: proxmox-backup/www/dashboard/TaskSummary.js:5
 #: proxmox-backup/www/datastore/DataStoreListSummary.js:258
 msgid "Task Summary"
-msgstr "태스크 개요"
+msgstr "작업 개요"
 
 #: proxmox-widget-toolkit/src/node/Tasks.js:344
 msgid "Task Type"
-msgstr "태스크 유형"
+msgstr "작업 유형"
 
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:125
 msgid "Task type"
-msgstr "태스크 유형"
+msgstr "작업 유형"
 
 #: pmg-gui/js/ServerAdministration.js:73
 #: pve-manager/www/manager6/panel/StatusPanel.js:33
 #: proxmox-backup/www/button/TaskButton.js:12
 #: proxmox-backup/www/ServerAdministration.js:76
 msgid "Tasks"
-msgstr "태스크"
+msgstr "작업"
 
 #: pve-manager/www/manager6/data/ResourceStore.js:234
 #: pve-manager/www/manager6/lxc/CreateWizard.js:194
@@ -11813,16 +11798,16 @@ msgstr "서비스 약관"
 #: proxmox-widget-toolkit/src/panel/NotificationConfigView.js:262
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:349
 msgid "Test"
-msgstr "테스트"
+msgstr ""
 
 #: pmg-gui/js/SpamInfoGrid.js:35
 msgid "Test Name"
-msgstr "테스트 이름"
+msgstr " 이름"
 
 #: pmg-gui/js/Utils.js:174 pmg-gui/js/Utils.js:376 pmg-gui/js/Utils.js:450
 #: pmg-gui/js/Utils.js:513
 msgid "Test String"
-msgstr "테스트 문자열"
+msgstr " 문자열"
 
 #: pve-manager/www/manager6/form/TagColorGrid.js:326
 msgid "Text"
@@ -11869,15 +11854,16 @@ msgid ""
 "The node-specific 'vzdump.conf' or, if this is not set, the default from the "
 "config schema is used to determine fallback values."
 msgstr ""
+"노드별 'vzdump.conf' 또는 설정되지 않은 경우, 설정 스키마의 기본값이 대체 값"
+"을 결정하는 데 사용됩니다."
 
 #: pve-manager/www/manager6/dc/Backup.js:421
 msgid "The notes are added to each backup created by this job."
 msgstr "이 작업으로 만든 각 백업에 메모가 추가됩니다."
 
 #: proxmox-widget-toolkit/src/panel/EmailRecipientPanel.js:43
-#, fuzzy
 msgid "The notification will be sent to the user's configured mail address"
-msgstr "통지는 사용자가 설정한 메일 주소로 전송됩니다."
+msgstr "알림은 사용자에게 구성된 메일 주소로 발송됩니다."
 
 #: pve-manager/www/manager6/ceph/Pool.js:198
 msgid ""
@@ -11897,18 +11883,19 @@ msgid ""
 "we are not aware of any major issues, there may be some bugs and the "
 "Enterprise Repository is not yet available."
 msgstr ""
+"선택한 릴리스는 현재 기술 미리 보기로 간주됩니다. 주요 문제는 없지만 버그가 "
+"있을 수 있으며 엔터프라이즈 리포지토리는 아직 사용할 수 없습니다."
 
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:306
 msgid "The test repository may contain unstable updates"
-msgstr "테스트 리포지토리에 불안정한 업데이트가 있을 수 있습니다."
+msgstr " 리포지토리에 불안정한 업데이트를 포함할 수 있습니다"
 
 #: pve-manager/www/manager6/ceph/CephInstallWizard.js:182
 msgid ""
 "The test repository should only be used for test setups or after consulting "
 "the official Proxmox support!"
 msgstr ""
-"테스트 저장소는 테스트 설정 또는 공식 Proxmox 지원팀에 문의한 후에만 사용해"
-"야 합니다!"
+" 저장소는  설정 또는 공식 Proxmox 지원팀에 문의한 후에만 사용해야 합니다!"
 
 #: proxmox-widget-toolkit/src/node/APTRepositories.js:505
 msgid ""
@@ -11928,8 +11915,8 @@ msgid ""
 "The {0}test repository may pull in unstable updates and is not recommended "
 "for production use!"
 msgstr ""
-"{0}테스트 리포지토리는 불안정할 수 있으므로 프로덕션용으로 사용하지 않는 것"
-"이 좋습니다!"
+"{0} 리포지토리는 불안정할 수 있으므로 프로덕션용으로 사용하지 않는 것이 좋습"
+"니다!"
 
 #: pve-manager/www/manager6/storage/LvmThinEdit.js:167
 msgid "Thin Pool"
@@ -12384,7 +12371,7 @@ msgstr "고유 MAC 주소"
 
 #: proxmox-widget-toolkit/src/window/TaskViewer.js:166
 msgid "Unique task ID"
-msgstr "고유 태스크 ID"
+msgstr "고유 작업 ID"
 
 #: proxmox-widget-toolkit/src/node/ServiceView.js:227
 msgid "Unit"
@@ -12718,9 +12705,8 @@ msgstr "자동-화이트리스트 사용"
 #: pve-manager/www/manager6/panel/BackupNotificationOptions.js:64
 #: proxmox-backup/www/tape/window/TapeBackupJob.js:259
 #: proxmox-backup/www/window/NotifyOptions.js:91
-#, fuzzy
 msgid "Use global notification settings"
-msgstr "테이프 백업 통지"
+msgstr "테이프 백업 알림"
 
 #: pve-manager/www/manager6/window/Backup.js:43
 #: proxmox-backup/www/datastore/OptionView.js:173
@@ -14154,9 +14140,8 @@ msgstr "호스트 설정 사용"
 
 #: pve-manager/www/manager6/sdn/controllers/EvpnEdit.js:37
 #: pve-manager/www/manager6/sdn/zones/VxlanEdit.js:58
-#, fuzzy
 msgid "used as underlay network"
-msgstr "공용 네트워크와 동일"
+msgstr "언더레이 네트워크로 사용"
 
 #: proxmox-widget-toolkit/src/panel/SmtpEditPanel.js:144
 msgid "user@example.com"
@@ -14286,7 +14271,7 @@ msgstr "{0} 년"
 #: proxmox-widget-toolkit/src/Utils.js:1122
 #, fuzzy, javascript-format
 msgid "{0}% of {1}"
-msgstr "{0}% / {1}"
+msgstr "{1}의 {0}%"
 
 #~ msgid "Add {0}"
 #~ msgstr "추가: {0}"
